@@ -1,0 +1,11 @@
+Valid Students:
+Alice 85
+Bob 72
+Charlie 38
+Diana 95
+Edward 89
+
+Failing Students:
+Charlie
+
+Average Grade: 75.8
