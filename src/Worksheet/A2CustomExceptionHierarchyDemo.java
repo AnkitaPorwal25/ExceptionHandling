@@ -64,3 +64,10 @@ public class A2CustomExceptionHierarchyDemo {
         }
     }
 }
+
+//
+//Custom exception with hierarchy
+//Define a base custom exception BankingException and two subclasses:
+//InsufficientFundsException and InvalidAccountException.
+//Write a method transferFunds() that can throw either.
+//Demonstrate catching them separately and together (by catching the parent).

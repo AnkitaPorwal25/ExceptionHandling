@@ -22,3 +22,11 @@ public class A3FileCopySafe {
         }
     }
 }
+
+//
+//Exception-safe resource handling with multiple
+//        resources
+//Write a program that opens two files (BufferedReader and
+//BufferedWriter), reads from one, and writes to the other.
+//Use try-with-resources to ensure both are closed safely, even if
+//exceptions occur in the middle.

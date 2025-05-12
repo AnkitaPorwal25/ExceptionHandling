@@ -18,3 +18,11 @@ public class A11ThreadExceptionExample {
         System.out.println("Main thread continues...");
     }
 }
+
+
+
+//Thread exception handling
+//Write a multithreaded program where a child thread throws a
+//RuntimeException.
+//Show how the main thread can detect and handle that exception using
+//Thread.setUncaughtExceptionHandler().

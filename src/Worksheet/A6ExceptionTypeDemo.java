@@ -47,3 +47,9 @@ public class A6ExceptionTypeDemo {
         checkSystemHealth();  // Throws CriticalSystemException
     }
 }
+
+//
+//        Custom checked vs unchecked exceptions
+//        Define a custom checked exception (FileValidationException) and a
+//        runtime exception (CriticalSystemException).
+//        Write code that shows where and why each type makes sense.

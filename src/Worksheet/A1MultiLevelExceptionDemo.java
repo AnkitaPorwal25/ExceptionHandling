@@ -38,3 +38,13 @@ public class A1MultiLevelExceptionDemo {
         }
     }
 }
+
+
+//        Multi-level exception propagation
+//        Write a program with three methods: readData(), processData(), and
+//main().
+//         readData() reads from a file and throws IOException.
+//         processData() calls readData() and catches IOException,
+//        then throws a DataProcessingException (custom).
+//         main() catches DataProcessingException and logs it.
+//        Simulate this flow and explain how exceptions travel across layers.

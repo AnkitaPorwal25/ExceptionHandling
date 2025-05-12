@@ -50,3 +50,9 @@ public class A8RetryServiceCaller {
         }
     }
 }
+
+//
+//        Programmatic exception handling policy
+//        Implement a retry mechanism: write a method that attempts to read from a flaky
+//        service 3 times. If it fails all 3 times, it throws a
+//        ServiceUnavailableException.

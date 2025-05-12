@@ -16,3 +16,10 @@ public class BadLoopExmple {
         }
     }
 }
+//
+//
+//Using Exception as a control mechanism (and why it’s
+//        bad)
+//Write a program that (incorrectly) uses exceptions to break out of normal loops
+//        (e.g., using a try-catch inside a loop instead of a proper break condition).
+//Then refactor it to avoid misuse.

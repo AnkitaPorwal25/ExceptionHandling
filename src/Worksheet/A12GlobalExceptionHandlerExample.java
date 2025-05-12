@@ -26,3 +26,10 @@ public class A12GlobalExceptionHandlerExample {
         System.out.println("Main thread finished setup.");
     }
 }
+
+//
+//
+//Global exception handler
+//Write a Java application where all uncaught exceptions are logged by setting a
+//global exception handler (using
+//                                  Thread.setDefaultUncaughtExceptionHandler()).

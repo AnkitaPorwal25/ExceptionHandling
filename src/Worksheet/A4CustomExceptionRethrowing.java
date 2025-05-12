@@ -32,3 +32,10 @@ public class A4CustomExceptionRethrowing {
         }
     }
 }
+
+//
+//
+//Re-throwing exceptions with additional context
+//Write a method that catches an exception and re-throws it wrapped inside a new
+//exception with a custom message, preserving the original stack trace (throw
+//                                                                              new CustomException("message", e)).

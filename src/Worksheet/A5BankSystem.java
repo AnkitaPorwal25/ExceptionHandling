@@ -69,3 +69,11 @@ public class A5BankSystem {
         bank.printBalances();  // Ensure balance is unchanged
     }
 }
+
+//
+//Partial transaction rollback on failure
+//Simulate a simple in-memory bank transfer system where moving funds
+//between accounts must rollback if an exception occurs mid-operation (e.g.,
+//                                                                     invalid target account).
+//Use try-catch to ensure that no partial transfer leaves accounts in an
+//inconsistent state.

@@ -8,3 +8,11 @@ public class MainApp {
         controller.handleRequest(101); // you can change the ID as needed
     }
 }
+
+//
+//Chained exceptions across layers
+//Simulate a layered app:
+//         Repository throws SQLException.
+//         Service layer catches it, wraps it in a ServiceLayerException.
+//         Controller layer catches ServiceLayerException and logs it.
+//Write code demonstrating this multi-layer exception wrapping.

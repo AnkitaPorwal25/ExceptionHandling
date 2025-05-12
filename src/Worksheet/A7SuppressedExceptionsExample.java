@@ -32,3 +32,10 @@ public class A7SuppressedExceptionsExample {
         }
     }
 }
+
+//
+//Handling suppressed exceptions from multiple close
+//operations
+//Write a try-with-resources block where two custom resources both
+//throw exceptions in close().
+//Capture and display the suppressed exceptions from the primary one.
